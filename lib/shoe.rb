@@ -16,6 +16,8 @@ class Shoe
   def brand=(brand)
     @brand = brand
     BRANDS << brand
+    
+    puts "BRANDS: #{BRANDS}"
   end
 
 end
